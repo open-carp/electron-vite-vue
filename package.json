@@ -1,0 +1,21 @@
+{
+  "name": "electron-vite-vue",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "starter:dev": "pnpm run -C apps/starter dev"
+  },
+  "dependencies": {
+    "v8-compile-cache": "^2.4.0",
+    "vue": "^3.3.9"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.0",
+    "electron": "^27.1.2",
+    "electron-builder": "^24.9.1",
+    "typescript": "^5.3.2",
+    "vite": "^5.0.2",
+    "vue-tsc": "^1.8.22"
+  }
+}
