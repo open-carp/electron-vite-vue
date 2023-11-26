@@ -3,6 +3,7 @@ import {
     BrowserWindow,
     BrowserWindowConstructorOptions,
 } from 'electron';
+import {platform} from 'process';
 
 process.env.ELECTRON_DISABLE_SECURITY_WARNINGS = 'true';
 
@@ -28,8 +29,10 @@ app.whenReady().then(() => {
     createWindow();
 });
 app.on('window-all-closed', () => {
-    if (process.platform !== 'darwin') {
+    if (platform !== 'darwin') {
         app.quit();
+    } else {
+        app.exit()
     }
 });
 
