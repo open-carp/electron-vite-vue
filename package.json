@@ -4,7 +4,9 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "starter:dev": "pnpm run -C apps/starter dev"
+    "starter:dev": "pnpm run -C apps/starter dev",
+    "clipboard:dev": "pnpm run -C apps/clipboard dev",
+    "tray:dev": "pnpm run -C apps/tray dev"
   },
   "dependencies": {
     "v8-compile-cache": "^2.4.0",
