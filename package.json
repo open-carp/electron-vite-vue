@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "starter:dev": "pnpm run -C apps/starter dev",
+    "ipc:dev": "pnpm run -C apps/ipc dev",
     "clipboard:dev": "pnpm run -C apps/clipboard dev",
     "tray:dev": "pnpm run -C apps/tray dev"
   },

@@ -39,6 +39,8 @@ importers:
 
   apps/clipboard: {}
 
+  apps/ipc: {}
+
   apps/starter: {}
 
   apps/tray: {}
